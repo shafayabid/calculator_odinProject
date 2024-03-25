@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    height: 800px;
+    width: 600px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.screen {
+    flex-grow: 2;
+    border: 2px solid red
+}
+
+.btn-container{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+
+.row-1{
+    display: flex;
+    flex: 1;
+}
+
+.row-2{
+    display: flex;
+    flex: 1;
+}
+
+.row-3{
+    display: flex;
+    flex: 1;
+}
+
+.row-4{
+    display: flex;
+    flex: 1;
+}
+
+#btn{
+    flex: 1;
+    padding: 16px;
+}
