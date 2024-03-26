@@ -20,35 +20,35 @@ btn1.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn2.addEventListener("mouseover", function (e) {
+btn2.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn3.addEventListener("mouseover", function (e) {
+btn3.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn4.addEventListener("mouseover", function (e) {
+btn4.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn5.addEventListener("mouseover", function (e) {
+btn5.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn6.addEventListener("mouseover", function (e) {
+btn6.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn7.addEventListener("mouseover", function (e) {
+btn7.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn8.addEventListener("mouseover", function (e) {
+btn8.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
-btn9.addEventListener("mouseover", function (e) {
+btn9.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
   });
 
