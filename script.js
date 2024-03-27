@@ -1,3 +1,7 @@
+let firstNumber = null;
+let secondNumber = null;
+let result = null;
+
 
 const btn0 = document.querySelector(".btn-0");
 const btn1 = document.querySelector(".btn-1");
@@ -9,6 +13,12 @@ const btn6 = document.querySelector(".btn-6");
 const btn7 = document.querySelector(".btn-7");
 const btn8 = document.querySelector(".btn-8");
 const btn9 = document.querySelector(".btn-9");
+
+const btnDiv = document.querySelector(".btn-div");
+const btnMul = document.querySelector(".btn-mul");
+const btnSub = document.querySelector(".btn-sub");
+const btnAdd = document.querySelector(".btn-add");
+const btnEquals = document.querySelector(".btn-equals");
 
 const screen = document.querySelector(".screen");
 
@@ -50,5 +60,26 @@ btn8.addEventListener("click", function (e) {
 
 btn9.addEventListener("click", function (e) {
     screen.innerText = screen.innerText + e.target.innerText;
+  });
+
+btnAdd.addEventListener("click", function (e) {
+    if(screen.innerText != ""){
+      screen.innerText = e.target.innerText;
+    }
+  });
+btnMul.addEventListener("click", function (e) {
+    if(screen.innerText != ""){
+      screen.innerText = e.target.innerText;
+    }
+  });
+btnDiv.addEventListener("click", function (e) {
+    if(screen.innerText != ""){
+      screen.innerText = e.target.innerText;
+    }
+  });
+btnSub.addEventListener("click", function (e) {
+    if(screen.innerText != ""){
+      screen.innerText = e.target.innerText;
+    }
   });
 
